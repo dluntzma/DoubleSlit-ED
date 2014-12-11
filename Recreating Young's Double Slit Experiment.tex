@@ -62,10 +62,20 @@ Next we optimized the signal-to-noise ratio for our PMT. To do so we held the PM
 \label{signaltoniose}
 \end{figure}
 
-To collect data we used a Labview program called ``TeachSpin Counter V3'' that connected to the pulse counter
+To collect data we used a Labview program called ``TeachSpin Counter V3'' that connected to the pulse counter. We then moved the detector slit along the x-axis in increments of 0.05 mm and recorded the number of counts given by the pulse counter. We were careful when collecting multiple sets of data to only scan along the x-axis in one direction and turn the micrometer father than necessary to minimize any backlash effects.
 
 \section{Results}
 
+We collected three sets of data using the double slit arrangement. Figure~\ref{doubleslit} shows a representative selection of the data we collected. The alignment of our slits was not exact because the minima at smaller x values do not reach zero. However, the vertical offset was not linear so it could not easily be subtracted off.
+
+\begin{figure}[h!]
+\centering
+\includegraphics[width=6in]{doubleslit.pdf}
+\caption{Data collected for the double slit arrangement. Our alignment was imperfect because the minima on the right side do not reach zero.}
+\label{doubleslit}
+\end{figure}
+
+Using the slit blocker we were able to obtain single slit data from both the near and the far slits. 
 
 \section{Analysis}
 

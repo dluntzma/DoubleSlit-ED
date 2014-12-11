@@ -10,10 +10,17 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
+<<<<<<< HEAD
 NotebookDataLength[     71311,       1292]
 NotebookOptionsPosition[     70550,       1262]
 NotebookOutlinePosition[     70905,       1278]
 CellTagsIndexPosition[     70862,       1275]
+=======
+NotebookDataLength[     69959,       1249]
+NotebookOptionsPosition[     69353,       1224]
+NotebookOutlinePosition[     69708,       1240]
+CellTagsIndexPosition[     69665,       1237]
+>>>>>>> FETCH_HEAD
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -23,8 +30,13 @@ Cell[BoxData[
   RowBox[{
    RowBox[{
     RowBox[{
+<<<<<<< HEAD
     "SetDirectory", "[", "\"\</Users/dluntzma/Desktop/DoubleSlit-ED\>\"", 
      "]"}], ";"}], "\[IndentingNewLine]", 
+=======
+    "SetDirectory", "[", "\"\</Users/danikaluntz-martin/Desktop\>\"", "]"}], 
+    ";"}], "\[IndentingNewLine]", 
+>>>>>>> FETCH_HEAD
    RowBox[{
     RowBox[{"counts2", " ", "=", " ", 
      RowBox[{
@@ -38,20 +50,31 @@ Cell[BoxData[
    3.6265242508364363`*^9, 3.626524254827141*^9}, {3.626524284945784*^9, 
    3.626524340079095*^9}, {3.62652437023774*^9, 3.626524455584119*^9}, {
    3.6265245731946383`*^9, 3.626524603895874*^9}, {3.626524763472774*^9, 
+<<<<<<< HEAD
    3.626524805516685*^9}, 3.626526798615066*^9, 3.627303580214085*^9}],
+=======
+   3.626524805516685*^9}, 3.626526798615066*^9, {3.62730329424111*^9, 
+   3.627303345230101*^9}}],
+>>>>>>> FETCH_HEAD
 
 Cell[CellGroupData[{
 
 Cell[BoxData[
- RowBox[{"ListPlot", "[", "counts2", "]"}]], "Input",
+ RowBox[{"ListPlot", "[", 
+  RowBox[{"counts2", ",", " ", 
+   RowBox[{"AxesLabel", "\[Rule]", 
+    RowBox[{"{", 
+     RowBox[{
+      RowBox[{"Distance", " ", 
+       RowBox[{"(", "mm", ")"}]}], ",", " ", "Counts"}], "}"}]}]}], 
+  "]"}]], "Input",
  CellChangeTimes->{{3.626525248699491*^9, 3.6265252585236797`*^9}, {
   3.626526666536984*^9, 3.6265266832287703`*^9}, {3.626526726279291*^9, 
-  3.626526729157074*^9}}],
+  3.626526729157074*^9}, {3.627303351190563*^9, 3.627303380800028*^9}}],
 
 Cell[BoxData[
  GraphicsBox[{{}, 
-   {RGBColor[0.368417, 0.506779, 0.709798], PointSize[0.01388888888888889], 
-    AbsoluteThickness[1.6], PointBox[CompressedData["
+   {RGBColor[0.24720000000000014`, 0.24, 0.6], PointBox[CompressedData["
 1:eJxFlD1MU1EUx1+Mn0WlahX84sulLoRYlGglORSSVoPRUoKFFH020IjWohCX
 unRx7uKiUxMcnJhZTAgOLji7OLSzrjg4ed87v/P6kqb8es+9Pef/u3S4vD63
 esjzvDX3Ct71uSb2V6m5d5D8NRLxZOzn1uuvxmn59DF4jCfkb9LteGt8R+Z2
@@ -68,26 +91,17 @@ k6ynmdd4ivl6qM/gryfKS/uPsT7DfTrBeo48jYX8j0f96f0wnuI+HIMnyMM4
 TX5H4bv4Nb6BzyNwin6N+f1vHobtd7HL/wGgUaVh
      "]]}, {}},
   AspectRatio->NCache[GoldenRatio^(-1), 0.6180339887498948],
-  Axes->{True, True},
-  AxesLabel->{None, None},
-  AxesOrigin->{2.3906250000000004`, 0},
-  DisplayFunction->Identity,
-  Frame->{{False, False}, {False, False}},
-  FrameLabel->{{None, None}, {None, None}},
-  FrameTicks->{{Automatic, Automatic}, {Automatic, Automatic}},
-  GridLines->{None, None},
-  GridLinesStyle->Directive[
-    GrayLevel[0.5, 0.4]],
+  Axes->True,
+  AxesLabel->{
+    FormBox[
+     RowBox[{"Distance", " ", "mm"}], TraditionalForm], 
+    FormBox["Counts", TraditionalForm]},
+  AxesOrigin->{2.5, 0},
   Method->{},
   PlotRange->{{2.5, 9.5}, {0, 310.}},
   PlotRangeClipping->True,
-  PlotRangePadding->{{
-     Scaled[0.02], 
-     Scaled[0.02]}, {
-     Scaled[0.02], 
-     Scaled[0.05]}},
-  Ticks->{Automatic, Automatic}]], "Output",
- CellChangeTimes->{3.626535423435823*^9}]
+  PlotRangePadding->{{0.14, 0.14}, {6.2, 6.2}}]], "Output",
+ CellChangeTimes->{3.626535423435823*^9, 3.627303386502541*^9}]
 }, Open  ]],
 
 Cell[BoxData[
@@ -1261,9 +1275,15 @@ Cell[BoxData["84.12034657156754`"], "Output",
 }, Open  ]]
 },
 WindowSize->{604, 848},
+<<<<<<< HEAD
 WindowMargins->{{545, Automatic}, {40, Automatic}},
 FrontEndVersion->"10.0 for Mac OS X x86 (32-bit, 64-bit Kernel) (June 27, \
 2014)",
+=======
+WindowMargins->{{29, Automatic}, {Automatic, 0}},
+FrontEndVersion->"9.0 for Mac OS X x86 (32-bit, 64-bit Kernel) (January 25, \
+2013)",
+>>>>>>> FETCH_HEAD
 StyleDefinitions->"Default.nb"
 ]
 (* End of Notebook Content *)
@@ -1277,6 +1297,7 @@ CellTagsIndex->{}
 *)
 (*NotebookFileOutline
 Notebook[{
+<<<<<<< HEAD
 Cell[558, 20, 1004, 20, 80, "Input"],
 Cell[CellGroupData[{
 Cell[1587, 44, 235, 4, 28, "Input"],
@@ -1293,6 +1314,19 @@ Cell[CellGroupData[{
 Cell[69531, 1230, 776, 23, 91, "Input"],
 Cell[70310, 1255, 111, 1, 28, "Output"],
 Cell[70424, 1258, 110, 1, 62, "Output"]
+=======
+Cell[558, 20, 1026, 21, 80, "Input"],
+Cell[CellGroupData[{
+Cell[1609, 45, 474, 11, 28, "Input"],
+Cell[2086, 58, 1385, 29, 252, "Output"]
+}, Open  ]],
+Cell[3486, 90, 1675, 40, 150, "Input"],
+Cell[5164, 132, 1680, 29, 148, "Input"],
+Cell[CellGroupData[{
+Cell[6869, 165, 901, 23, 63, "Input"],
+Cell[7773, 190, 30313, 506, 240, "Output"],
+Cell[38089, 698, 31248, 523, 237, "Output"]
+>>>>>>> FETCH_HEAD
 }, Open  ]]
 }
 ]
