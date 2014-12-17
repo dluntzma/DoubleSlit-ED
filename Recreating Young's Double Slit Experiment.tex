@@ -138,6 +138,29 @@ were $I_0$ is the maximum intensity. $\alpha$ and $\beta$ are defined as
 \end{equation}
 
 where $\lambda$ is the wavelength of the light, $a$ is the width of each slit, $d$ is the center-to-center slit separation and $R$ is the distance from the double slit to the detector. We defined $x$ to be the axis that we scanned along with the detector slit and $x_0$ is a fit parameter to adjust for the offset of the central peak.
+Because the $\alpha$ contains a sine function, it can be zero. This causes problems since $\alpha$ is in the denominator of a fraction making Equation~\ref{fraunhofer} undefined. To avoid the undefined places in Equation~\ref{fraunhofer} we used a sinc function which is continuous and takes the limit as $\alpha$ approaches zero.
+
+We also used the Fresnel model to fit all of our data. The Fresnel model sums over all of the possible paths that the photon could take. The functions for the Fresnel model are
+
+\begin{equation}
+\label{fresnelnear}
+I_\text{near} = e^{\frac{2 \pi I D_1}{\lambda}} e^{\frac{2 \pi I D_2}{\lambda}} \int_\frac{d-a}{2}^\frac{d+a}{2} e^{\frac{2 \pi I (w-y_1)^2}{2 D_1 \lambda}} e^{\frac{2 \pi I (y_1-z)^2}{2 D_2 \lambda}} dy_1
+\end{equation}
+
+\begin{equation}
+\label{fresnelfar}
+I_\text{far} = e^{\frac{2 \pi I D_1}{\lambda}} e^{\frac{2 \pi I D_2}{\lambda}} \int_\frac{-d-a}{2}^\frac{-d+a}{2} e^{\frac{2 \pi I (w-y_2)^2}{2 D_1 \lambda}} e^{\frac{2 \pi I (y_2-z)^2}{2 D_2 \lambda}} dy_2
+\end{equation}
+
+where the variables are defined as seen in Figure~\ref{fresnel}.
+
+\begin{figure}[h!]
+\centering
+\includegraphics[width=6in]{fresnel.pdf}
+\caption{The set up of our double slit experiment showing the variables used for the Fresnel model fit.}
+\label{fresnel}
+\end{figure}
+
 
 \begin{table}[h!]
 \centering
@@ -146,7 +169,7 @@ where $\lambda$ is the wavelength of the light, $a$ is the width of each slit, $
 \begin{tabular}{c c c c c}
 Data Set & Fraunhofer $\chi^2$ & Fraunhofer Reduced $\chi^2$ & Fresnel $\chi^2$ & Fresnel Reduced $\chi^2$ \\
 \hline	
-1 & 510 &   73 &  &   \\
+1 & 510 &   73 & 374 & 53  \\
 2 & 488 &   70 &  &   \\
 3 & 856 & 122 &  &   \\
 
@@ -186,6 +209,26 @@ Data Set & Fraunhofer $\chi^2$ & Fraunhofer Reduced $\chi^2$ & Fresnel $\chi^2$ 
 \label{DoubleSlitFraun3}
 \end{figure}
 
+\begin{figure}[h!]
+\centering
+\includegraphics[width=6in]{DoubleSlitFresnel1.pdf}
+\caption{Mathematica code for the Fresnel model fit to our first double slit data set.}
+\label{DoubleSlitFresnel1}
+\end{figure}
+
+\begin{figure}[h!]
+\centering
+\includegraphics[width=6in]{DoubleSlitFresnel2.pdf}
+\caption{Mathematica code for the Fresnel model fit to our second double slit data set.}
+\label{DoubleSlitFresnel2}
+\end{figure}
+
+\begin{figure}[h!]
+\centering
+\includegraphics[width=6in]{DoubleSlitFresnel3.pdf}
+\caption{Mathematica code for the Fresnel model fit to our third double slit data set.}
+\label{DoubleSlitFresnel3}
+\end{figure}
 
 
 \begin{thebibliography}{1}
