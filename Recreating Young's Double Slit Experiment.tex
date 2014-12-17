@@ -118,7 +118,7 @@ We used two different models to fit to our double slit data, the Fraunhofer mode
 \label{doublefraun3}
 \end{figure}
 
-The Fraunhofer model assumes XXX. For the double slit arrangement it gives the function
+The Fraunhofer model using diffraction and assumes that the detection location is far aways from the place of diffraction. For the double slit arrangement it gives the function
 
 \begin{equation}
 \label{fraunhofer}
@@ -152,12 +152,14 @@ I_\text{near} = e^{\frac{2 \pi I D_1}{\lambda}} e^{\frac{2 \pi I D_2}{\lambda}} 
 I_\text{far} = e^{\frac{2 \pi I D_1}{\lambda}} e^{\frac{2 \pi I D_2}{\lambda}} \int_\frac{-d-a}{2}^\frac{-d+a}{2} e^{\frac{2 \pi I (w-y_2)^2}{2 D_1 \lambda}} e^{\frac{2 \pi I (y_2-z)^2}{2 D_2 \lambda}} dy_2
 \end{equation}
 
-where the variables are defined as seen in Figure~\ref{fresnelsetup}.
+where the variables are defined as seen in Figure~\ref{fresnelsetup}. $D_1$ and $D_2$ are the distance from the source slit to the double slit and from the double slit to the detector slit respectively. $w$ is the displacement of the source slit from the light source. Since we aligned our source slit with our light source $w$ should be zero. $y_1$ and $y_2$ are the displacements of the double-slit slits from the center of source slit. These values are integrated to account for the width of each slit. $z$ was dependent on the location the detector slit and was related by $z = x - x_0$ to our x value.
+
+The Fresnel model does not account for the intensity of the light so we needed to multiply by 8,500 to 10,000 to achieve the amplitudes necessary to match our data sets.
 
 \begin{figure}[h!]
 \centering
 \includegraphics[width=6in]{fresnelsetup.pdf}
-\caption{The set up of our double slit experiment showing the variables used for the Fresnel model fit.}
+\caption{The set up of our double slit experiment showing the variables used for the Fresnel model fit. $D_1$ and $D_2$ are the distance from the source slit to the double slit and from the double slit to the detector slit respectively. $w$ is the displacement of the source slit from the light source. Since we aligned our source slit with our light source $w$ should be zero. $y_1$ and $y_2$ are the displacements of the double-slit slits from the center of source slit. These values are integrated to account for the width of each slit. $z$ was dependent on the location the detector slit and was related by $z = x - x_0$ to our x value.}
 \label{fresnelsetup}
 \end{figure}
 
@@ -202,6 +204,11 @@ Data Set & Fraunhofer $\chi^2$ & Fraunhofer Reduced $\chi^2$ & Fresnel $\chi^2$ 
 
 \section{Discussion}
 
+The largest limiting factor in our experiment was the alignment of our slits. Aligning the slits was difficult because the light from the light bulb was too dim to see at the double slit. To align the slits we had to use the laser because it was bright enough to see all the way to the detection slit. However, this method is far from perfect because the laser was moveable and did not have the same positioning as the light bulb. So even if the slits were aligned using the laser, they would not necessarily be aligned when we switched to the light bulb.
+
+To better align the slits we would have needed to take data then realign the slits and take data again until the our data showed us the slits were aligned. Alignment could be seen when all the minima of the diffraction pattern reached zero. This method of fine alignment would have required more time than we had. Fine alignment would also have been difficult because we were adjusting the slits with our fingers so such small, precise movements would have been difficult.
+
+For future experiments we would suggest taking the time to make the fine adjustment necessary to ensure better alignment. And if possible use a apparatus that allows fine adjustments with something other than ones fingers.
 
 \section{Conclusion}
 
