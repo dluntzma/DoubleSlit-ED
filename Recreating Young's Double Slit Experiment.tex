@@ -94,7 +94,7 @@ Using the slit blocker we were able to obtain single slit data from both the nea
 
 \section{Analysis}
 
-We used two different models to fit to our double slit data, the Fraunhofer model and the Fresnel model. We did all of our data fitting in Mathematica and the code we used can be found in the appendix. Figure~\ref{doublefraun1}-\ref{doublefraun3} are our double slit data with fits using the Fraunhofer model.  
+We used two different models to fit to our double slit data, the Fraunhofer model and the Fresnel model. We did all of our data fitting in Mathematica and the code we used can be found in the appendix. Figure~\ref{doublefraun1}-\ref{doublefraun3} are our double slit data with fits using the Fraunhofer model. The $\chi^2$ and reduced $\chi^2$ values for both the Fraunhofer and Fresnel fits can be found in Table~\ref{chisquared}.
 
 \begin{figure}[h!]
 \centering
@@ -106,16 +106,34 @@ We used two different models to fit to our double slit data, the Fraunhofer mode
 \begin{figure}[h!]
 \centering
 \includegraphics[width=6in]{doublefraun2.pdf}
-\caption{Double slit data from our second run with a fit using the Fraunhofer model. The fit is much better on the right side than the left due to the alignment issues previously discussed.}
+\caption{Double slit data from our second run with a fit using the Fraunhofer model. The fit is again much better on the right side than the left due primarily to the misalignment.}
 \label{doublefraun2}
 \end{figure}
 
 \begin{figure}[h!]
 \centering
 \includegraphics[width=6in]{doublefraun3.pdf}
-\caption{Double slit data from our third run with a fit using the Fraunhofer model. The fit is much better on the right side than the left due to the alignment issues previously discussed.}
+\caption{Double slit data from our third run with a fit using the Fraunhofer model. This fit is slightly better on the left side than the right.}
 \label{doublefraun3}
 \end{figure}
+
+The Fraunhofer model assumes XXX. For the double slit arrangement it gives the function
+
+\begin{table}[h!]
+\centering
+\caption{The $\chi^2$ and reduced $\chi^2$ values for both the Fraunhofer and Fresnel fits for all three sets of data.}
+\begin{ruledtabular}
+\begin{tabular}{c c c c c}
+Data Set & Fraunhofer $\chi^2$ & Fraunhofer Reduced $\chi^2$ & Fresnel $\chi^2$ & Fresnel Reduced $\chi^2$ \\
+\hline	
+1 & 510 &   73 &  &   \\
+2 & 488 &   70 &  &   \\
+3 & 856 & 122 &  &   \\
+
+\end{tabular}
+\end{ruledtabular}
+\label{neon_dvs}
+\end{table}
 
 
 \section{Discussion}
