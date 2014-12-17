@@ -6,6 +6,7 @@
 \usepackage{graphicx} 
 \usepackage{color}
 \usepackage{ulem}
+
 \begin{document}
 
 
@@ -119,6 +120,25 @@ We used two different models to fit to our double slit data, the Fraunhofer mode
 
 The Fraunhofer model assumes XXX. For the double slit arrangement it gives the function
 
+\begin{equation}
+\label{fraunhofer}
+I(x) = I_0 \left(\frac{\sin\alpha}{\alpha}\right)^2 \left(\cos\beta\right)^2
+\end{equation}
+
+were $I_0$ is the maximum intensity. $\alpha$ and $\beta$ are defined as
+
+\begin{equation}
+\label{alpha}
+\alpha = \frac{a \pi \sin(\frac{x - x_0}{R})}{\lambda}
+\end{equation}
+
+\begin{equation}
+\label{beta}
+\beta = \frac{d \pi \sin(\frac{x - x_0}{R})}{\lambda}
+\end{equation}
+
+where $\lambda$ is the wavelength of the light, $a$ is the width of each slit, $d$ is the center-to-center slit separation and $R$ is the distance from the double slit to the detector. We defined $x$ to be the axis that we scanned along with the detector slit and $x_0$ is a fit parameter to adjust for the offset of the central peak.
+
 \begin{table}[h!]
 \centering
 \caption{The $\chi^2$ and reduced $\chi^2$ values for both the Fraunhofer and Fresnel fits for all three sets of data.}
@@ -132,7 +152,7 @@ Data Set & Fraunhofer $\chi^2$ & Fraunhofer Reduced $\chi^2$ & Fresnel $\chi^2$ 
 
 \end{tabular}
 \end{ruledtabular}
-\label{neon_dvs}
+\label{chisquared}
 \end{table}
 
 
