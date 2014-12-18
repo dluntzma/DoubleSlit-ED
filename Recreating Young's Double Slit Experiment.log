@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  17 DEC 2014 20:09
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  17 DEC 2014 21:38
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -231,7 +231,11 @@ Class revtex4-1 Info: cite was not loaded (OK!) on input line 10.
 Class revtex4-1 Info: mcite was not loaded (OK!) on input line 10.
 Class revtex4-1 Info: multicol was not loaded (OK!) on input line 10.
 
-(./Recreating Young's Double Slit Experiment.aux)
+(./Recreating Young's Double Slit Experiment.aux
+
+LaTeX Warning: Label `alpha' multiply defined.
+
+)
 \openout1 = `"Recreating Young's Double Slit Experiment.aux"'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 10.
@@ -246,8 +250,7 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 10.
 LaTeX Font Info:    ... okay on input line 10.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 10.
 LaTeX Font Info:    ... okay on input line 10.
-
-(/usr/local/texlive/2014/texmf-dist/tex/context/base/supp-pdf.mkii
+ (/usr/local/texlive/2014/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count109
 \scratchdimen=\dimen116
@@ -436,82 +439,126 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[9 <./doublefraun3.pdf>] [10 <./fresnelsetup.pdf>] [11 <./doublefresnel1.pdf> <
-./doublefresnel2.pdf>] [12 <./doublefresnel3.pdf>]
-<DoubleSlitFraun1.pdf, id=228, 614.295pt x 794.97pt>
+[9 <./doublefraun3.pdf>] [10 <./fresnelsetup.pdf>]
+
+LaTeX Warning: Reference `farfaun' on page 11 undefined on input line 222.
+
+[11 <./doublefresnel1.pdf> <./doublefresnel2.pdf>]
+<nearfraun.pdf, id=215, 361.35pt x 203.76125pt>
+File: nearfraun.pdf Graphic file (type pdf)
+ <use nearfraun.pdf>
+Package pdftex.def Info: nearfraun.pdf used on input line 226.
+(pdftex.def)             Requested size: 433.62pt x 244.51537pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<farfraun.pdf, id=216, 361.35pt x 201.75375pt>
+File: farfraun.pdf Graphic file (type pdf)
+ <use farfraun.pdf>
+Package pdftex.def Info: farfraun.pdf used on input line 233.
+(pdftex.def)             Requested size: 433.62pt x 242.10635pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[12 <./doublefresnel3.pdf>] [13 <./nearfraun.pdf> <./farfraun.pdf>]
+<DoubleSlitFraun1.pdf, id=254, 614.295pt x 794.97pt>
 File: DoubleSlitFraun1.pdf Graphic file (type pdf)
 
 <use DoubleSlitFraun1.pdf>
-Package pdftex.def Info: DoubleSlitFraun1.pdf used on input line 225.
+Package pdftex.def Info: DoubleSlitFraun1.pdf used on input line 257.
 (pdftex.def)             Requested size: 433.62pt x 561.15749pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<DoubleSlitFraun2.pdf, id=229, 614.295pt x 794.97pt>
+<DoubleSlitFraun2.pdf, id=255, 614.295pt x 794.97pt>
 File: DoubleSlitFraun2.pdf Graphic file (type pdf)
 
 <use DoubleSlitFraun2.pdf>
-Package pdftex.def Info: DoubleSlitFraun2.pdf used on input line 233.
+Package pdftex.def Info: DoubleSlitFraun2.pdf used on input line 265.
 (pdftex.def)             Requested size: 433.62pt x 561.15749pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<DoubleSlitFraun3.pdf, id=230, 614.295pt x 794.97pt>
+<DoubleSlitFraun3.pdf, id=256, 614.295pt x 794.97pt>
 File: DoubleSlitFraun3.pdf Graphic file (type pdf)
 
 <use DoubleSlitFraun3.pdf>
-Package pdftex.def Info: DoubleSlitFraun3.pdf used on input line 241.
+Package pdftex.def Info: DoubleSlitFraun3.pdf used on input line 273.
 (pdftex.def)             Requested size: 433.62pt x 561.15749pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<DoubleSlitFresnel1.pdf, id=231, 614.295pt x 794.97pt>
+<DoubleSlitFresnel1.pdf, id=257, 614.295pt x 794.97pt>
 File: DoubleSlitFresnel1.pdf Graphic file (type pdf)
 
 <use DoubleSlitFresnel1.pdf>
-Package pdftex.def Info: DoubleSlitFresnel1.pdf used on input line 248.
+Package pdftex.def Info: DoubleSlitFresnel1.pdf used on input line 280.
 (pdftex.def)             Requested size: 433.62pt x 561.15749pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<DoubleSlitFresnel2.pdf, id=232, 614.295pt x 794.97pt>
+<DoubleSlitFresnel2.pdf, id=258, 614.295pt x 794.97pt>
 File: DoubleSlitFresnel2.pdf Graphic file (type pdf)
 
 <use DoubleSlitFresnel2.pdf>
-Package pdftex.def Info: DoubleSlitFresnel2.pdf used on input line 255.
+Package pdftex.def Info: DoubleSlitFresnel2.pdf used on input line 287.
 (pdftex.def)             Requested size: 433.62pt x 561.15749pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<DoubleSlitFresnel3.pdf, id=233, 614.295pt x 794.97pt>
+<DoubleSlitFresnel3.pdf, id=259, 614.295pt x 794.97pt>
 File: DoubleSlitFresnel3.pdf Graphic file (type pdf)
 
 <use DoubleSlitFresnel3.pdf>
-Package pdftex.def Info: DoubleSlitFresnel3.pdf used on input line 262.
+Package pdftex.def Info: DoubleSlitFresnel3.pdf used on input line 294.
 (pdftex.def)             Requested size: 433.62pt x 561.15749pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
+<SingleNearFraun.pdf, id=260, 614.295pt x 794.97pt>
+File: SingleNearFraun.pdf Graphic file (type pdf)
+ <use SingleNearFraun.pdf>
+Package pdftex.def Info: SingleNearFraun.pdf used on input line 301.
+(pdftex.def)             Requested size: 433.62pt x 561.15749pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<SingleFarFraun.pdf, id=261, 614.295pt x 794.97pt>
+File: SingleFarFraun.pdf Graphic file (type pdf)
+ <use SingleFarFraun.pdf>
+Package pdftex.def Info: SingleFarFraun.pdf used on input line 308.
+(pdftex.def)             Requested size: 433.62pt x 561.15749pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[14]
 No file "Recreating Young's Double Slit Experiment".bbl.
-[13] [14 <./DoubleSlitFraun1.pdf>] [15 <./DoubleSlitFraun2.pdf>] [16 <./DoubleS
-litFraun3.pdf>] [17 <./DoubleSlitFresnel1.pdf>] [18 <./DoubleSlitFresnel2.pdf>]
-[19 <./DoubleSlitFresnel3.pdf>]
-(./Recreating Young's Double Slit Experiment.aux)
+[15 <./DoubleSlitFraun1.pdf>] [16 <./DoubleSlitFraun2.pdf>] [17 <./DoubleSlitFr
+aun3.pdf>] [18 <./DoubleSlitFresnel1.pdf>] [19 <./DoubleSlitFresnel2.pdf>]
+[20 <./DoubleSlitFresnel3.pdf>] [21 <./SingleNearFraun.pdf>] [22 <./SingleFarFr
+aun.pdf>] (./Recreating Young's Double Slit Experiment.aux)
 
 LaTeX Warning: There were undefined references.
 
+
+LaTeX Warning: There were multiply-defined labels.
+
  ) 
 Here is how much of TeX's memory you used:
- 4393 strings out of 493117
- 59525 string characters out of 6135433
- 136430 words of memory out of 5000000
- 7781 multiletter control sequences out of 15000+600000
+ 4422 strings out of 493117
+ 60021 string characters out of 6135433
+ 136549 words of memory out of 5000000
+ 7806 multiletter control sequences out of 15000+600000
  12497 words of font info for 48 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  38i,8n,30p,1444b,308s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -531,11 +578,11 @@ e/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/
 2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/20
 14/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/201
 4/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on "Recreating Young's Double Slit Experiment.pdf" (19 pages, 22
-82292 bytes).
+Output written on "Recreating Young's Double Slit Experiment.pdf" (22 pages, 25
+59811 bytes).
 PDF statistics:
- 509 PDF objects out of 1000 (max. 8388607)
- 397 compressed objects within 4 object streams
+ 595 PDF objects out of 1000 (max. 8388607)
+ 467 compressed objects within 5 object streams
  0 named destinations out of 1000 (max. 500000)
- 91 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 111 words of extra memory for PDF output out of 10000 (max. 10000000)
 

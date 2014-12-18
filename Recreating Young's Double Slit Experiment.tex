@@ -158,7 +158,7 @@ I_\text{far} = e^{\frac{2 \pi I D_1}{\lambda}} e^{\frac{2 \pi I D_2}{\lambda}} \
 
 where the variables are defined as seen in Figure~\ref{fresnelsetup}. $D_1$ and $D_2$ are the distance from the source slit to the double slit and from the double slit to the detector slit respectively. $w$ is the displacement of the source slit from the light source. Since we aligned our source slit with our light source $w$ should be zero. $y_1$ and $y_2$ are the displacements of the double-slit slits from the center of source slit. These values are integrated to account for the width of each slit. $z$ was dependent on the location the detector slit and was related by $z = x - x_0$ to our x value.
 
-The Fresnel model does not account for the intensity of the light so we needed to multiply by 8,500 to 10,000 to achieve the amplitudes necessary to match our data sets.
+We integrated then added Equations~\ref{fresnelnear} and ~\ref{fresnelfar}. To obtain an intensity we multiplied by the complex conjugate, then we took the real part of the resulting function and fit it to our data. The Fresnel model does not account for the intensity of the light so we needed to multiply by 8,500 to 10,000 to achieve the amplitudes necessary to match our data sets. 
 
 \begin{figure}[h!]
 \centering
@@ -198,12 +198,44 @@ Data Set & Fraunhofer $\chi^2$ & Fraunhofer Reduced $\chi^2$ & Fresnel $\chi^2$ 
 \hline	
 1 & 510 &   73 & 374 &  53  \\
 2 & 488 &   70 & 376 &  54  \\
-3 & 856 & 122 & 857 & 122  \\
+3 & 856 & 122 & 857 & 122 \\
 
 \end{tabular}
 \end{ruledtabular}
 \label{chisquared}
 \end{table}
+
+For the single slit data that we collected we were able to do a Fraunhofer model fit. The Fraunhofer model for a single slit gives the same function as Equation~\ref{fraunhofer} without the double slit diffraction. That leaves
+
+\begin{equation}
+\label{singlefraunhofer}
+I(x) = I_0 \left(\frac{\sin\alpha}{\alpha}\right)^2
+\end{equation}
+ 
+ where $\alpha$ is once again
+
+\begin{equation}
+\label{alpha}
+\alpha = \frac{a \pi \sin(\frac{x - x_0}{R})}{\lambda}
+\end{equation}
+
+Fitting Equation~\ref{singlefraunhofer} to our single slit data we got Figure~\ref{nearfraun} and Figure~\ref{farfraun}. As discussed above the amplitude for our far slit data, Figure~\ref{farfaun}, is larger than expected most likely due to slit misalignment. Our near slit data, Figure~\ref{nearfraun}, agreed with our expectations for amplitude being one fourth the amplitude of the double slit fit.
+
+\begin{figure}[h!]
+\centering
+\includegraphics[width=6in]{nearfraun.pdf}
+\caption{The fit to our near slit data using the Fraunhofer model. The amplitude meets expectations by being one fourth the amplitude of the double slit fit.}
+\label{nearfraun}
+\end{figure}
+
+\begin{figure}[h!]
+\centering
+\includegraphics[width=6in]{farfraun.pdf}
+\caption{The fit to our far slit data using the Fraunhofer model. The amplitude is much larger than expected due to slit misalignment.}
+\label{farfraun}
+\end{figure}
+
+We attempted to fit our single slit data using the Fresnel model by only summing over a single slit, however the Mathematica would not compile and we did not have time to problem solve the code error.
 
 
 \section{Discussion}
@@ -262,6 +294,20 @@ Another potential difficulty was that our third data set had much higher $\chi^2
 \includegraphics[width=6in]{DoubleSlitFresnel3.pdf}
 \caption{Mathematica code for the Fresnel model fit to our third double slit data set.}
 \label{DoubleSlitFresnel3}
+\end{figure}
+
+\begin{figure}[h!]
+\centering
+\includegraphics[width=6in]{SingleNearFraun.pdf}
+\caption{Mathematica code for the Fraunhofer model fit to our near single slit data set.}
+\label{SingleNearFraun}
+\end{figure}
+
+\begin{figure}[h!]
+\centering
+\includegraphics[width=6in]{SingleFarFraun.pdf}
+\caption{Mathematica code for the Fraunhofer model fit to our far single slit data set.}
+\label{SingleFarFraun}
 \end{figure}
 
 
