@@ -1,22 +1,13 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.10.10)  18 DEC 2014 01:02
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  18 DEC 2014 10:16
 entering extended mode
-**C:/Users/Jon/Desktop/DoubleSlit-ED/Recreating*Young's*Double*Slit*Experiment.
-tex
-
-("C:/Users/Jon/Desktop/DoubleSlit-ED/Recreating Young's Double Slit Experiment.
-tex"
-LaTeX2e <2011/06/27>
-Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
-abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
-croatian, czech, danish, dutch, esperanto, estonian, farsi, finnish, french, ga
-lician, german, german-x-2013-05-26, greek, gujarati, hindi, hungarian, iceland
-ic, indonesian, interlingua, irish, italian, kannada, kurmanji, latin, latvian,
- lithuanian, malayalam, marathi, mongolian, mongolianlmc, monogreek, ngerman, n
-german-x-2013-05-26, nynorsk, oriya, panjabi, pinyin, polish, portuguese, roman
-ian, russian, sanskrit, serbian, slovak, slovenian, spanish, swedish, swissgerm
-an, tamil, telugu, turkish, turkmen, ukenglish, ukrainian, uppersorbian, usengl
-ishmax, welsh, loaded.
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\revtex\revtex4-1.cls"
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**"Recreating Young's Double Slit Experiment.tex"
+(./Recreating Young's Double Slit Experiment.tex
+LaTeX2e <2014/05/01>
+Babel <3.9k> and hyphenation patterns for 78 languages loaded.
+(/usr/local/texlive/2014/texmf-dist/tex/latex/revtex/revtex4-1.cls
 Document Class: revtex4-1 2010/07/25/20:33:00 4.1r (http://publish.aps.org/revt
 ex4/ for documentation)
  Copyright (c) 2009 The American Physical Society.
@@ -78,7 +69,7 @@ Class revtex4-1 Info: Overriding \@vspace, \@vspacer, \@no@pgbk, \@newline, and
 
 Class revtex4-1 Warning: No Society specified, using default society aps.
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\revtex\aps4-1.rtx"
+(/usr/local/texlive/2014/texmf-dist/tex/latex/revtex/aps4-1.rtx
 File: aps4-1 2010/07/25/20:33:00 4.1r (http://publish.aps.org/revtex4/ for docu
 mentation)
 Class revtex4-1 Info: RevTeX society APS selected on input line 31.
@@ -86,19 +77,19 @@ Class revtex4-1 Info: RevTeX society APS selected on input line 31.
 Class revtex4-1 Info: Selecting journal prb on input line 7544.
 Class revtex4-1 Info: APS journal PRB selected on input line 7545.
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\revtex\aps12pt4-1.rtx"
+(/usr/local/texlive/2014/texmf-dist/tex/latex/revtex/aps12pt4-1.rtx
 File: aps12pt4-1 2010/07/25/20:33:00 4.1r (http://publish.aps.org/revtex4/ for 
 documentation)
 Class revtex4-1 Info: RevTeX pointsize 12pt selected on input line 30.
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\textcase\textcase.sty"
+(/usr/local/texlive/2014/texmf-dist/tex/latex/textcase/textcase.sty
 Package: textcase 2004/10/07 v0.07 Text only upper/lower case changing (DPC)
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\url\url.sty"
+(/usr/local/texlive/2014/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip10
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\natbib\natbib.sty"
+(/usr/local/texlive/2014/texmf-dist/tex/latex/natbib/natbib.sty
 Package: natbib 2010/09/13 8.31b (PWD, AO)
 \bibhang=\skip44
 \bibsep=\skip45
@@ -107,31 +98,31 @@ LaTeX Info: Redefining \cite on input line 694.
 )
 Class revtex4-1 Info: Repairing natbib's \BibitemShut on input line 7549.
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\revtex\revsymb4-1.sty"
+(/usr/local/texlive/2014/texmf-dist/tex/latex/revtex/revsymb4-1.sty
 Package: revsymb4-1 2010/07/25/20:33:00 4.1r (http://publish.aps.org/revtex4/ f
 or documentation)
 LaTeX Info: Redefining \REV@mathfrak on input line 119.
 ))
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty"
+(/usr/local/texlive/2014/texmf-dist/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2013/01/14 v2.14 AMS math features
 \@mathmargin=\skip46
 
 For additional information on amsmath, use the `?' option.
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amstext.sty"
+(/usr/local/texlive/2014/texmf-dist/tex/latex/amsmath/amstext.sty
 Package: amstext 2000/06/29 v2.01
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsgen.sty"
+(/usr/local/texlive/2014/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0
 \@emptytoks=\toks16
 \ex@=\dimen102
 )
 LaTeX Info: Redefining \text on input line 39.
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsbsy.sty"
+(/usr/local/texlive/2014/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d
 \pmbraise@=\dimen103
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsopn.sty"
+(/usr/local/texlive/2014/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 1999/12/14 v2.01 operator names
 )
 \inf@bad=\count95
@@ -172,7 +163,7 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
 LaTeX Info: Redefining \[ on input line 2665.
 LaTeX Info: Redefining \] on input line 2666.
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\amsfonts.sty"
+(/usr/local/texlive/2014/texmf-dist/tex/latex/amsfonts/amsfonts.sty
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \symAMSa=\mathgroup4
 \symAMSb=\mathgroup5
@@ -181,31 +172,31 @@ LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 LaTeX Info: Redefining \frak on input line 111.
 LaTeX Info: Redefining \Bbb on input line 113.
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
-Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+(/usr/local/texlive/2014/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2014/04/25 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
-Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+(/usr/local/texlive/2014/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/05/08 v1.15 key=value parser (DPC)
 \KV@toks@=\toks21
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
+(/usr/local/texlive/2014/texmf-dist/tex/latex/graphics/graphics.sty
 Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\trig.sty"
+(/usr/local/texlive/2014/texmf-dist/tex/latex/graphics/trig.sty
 Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\graphics.cfg"
-File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
+(/usr/local/texlive/2014/texmf-dist/tex/latex/latexconfig/graphics.cfg
+File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
 )
 Package graphics Info: Driver file: pdftex.def on input line 91.
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\pdftex-def\pdftex.def"
+(/usr/local/texlive/2014/texmf-dist/tex/latex/pdftex-def/pdftex.def
 File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
+(/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/infwarerr.sty
 Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
+(/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
 Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 )
 \Gread@gobject=\count107
@@ -213,15 +204,15 @@ Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 \Gin@req@height=\dimen111
 \Gin@req@width=\dimen112
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\color.sty"
-Package: color 2005/11/14 v1.0j Standard LaTeX Color (DPC)
+(/usr/local/texlive/2014/texmf-dist/tex/latex/graphics/color.sty
+Package: color 2014/04/23 v1.1a Standard LaTeX Color (DPC)
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\color.cfg"
+(/usr/local/texlive/2014/texmf-dist/tex/latex/latexconfig/color.cfg
 File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
 )
-Package color Info: Driver file: pdftex.def on input line 130.
+Package color Info: Driver file: pdftex.def on input line 137.
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\ulem\ulem.sty"
+(/usr/local/texlive/2014/texmf-dist/tex/generic/ulem/ulem.sty
 \UL@box=\box43
 \UL@hyphenbox=\box44
 \UL@skip=\skip49
@@ -240,8 +231,7 @@ Class revtex4-1 Info: cite was not loaded (OK!) on input line 10.
 Class revtex4-1 Info: mcite was not loaded (OK!) on input line 10.
 Class revtex4-1 Info: multicol was not loaded (OK!) on input line 10.
 
-("C:\Users\Jon\Desktop\DoubleSlit-ED\Recreating Young's Double Slit Experiment.
-aux"
+(./Recreating Young's Double Slit Experiment.aux
 
 LaTeX Warning: Label `DblIntfr' multiply defined.
 
@@ -249,6 +239,8 @@ LaTeX Warning: Label `DblIntfr' multiply defined.
 LaTeX Warning: Label `alpha' multiply defined.
 
 )
+\openout1 = `"Recreating Young's Double Slit Experiment.aux"'.
+
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 10.
 LaTeX Font Info:    ... okay on input line 10.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 10.
@@ -261,7 +253,7 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 10.
 LaTeX Font Info:    ... okay on input line 10.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 10.
 LaTeX Font Info:    ... okay on input line 10.
- ("C:\Program Files (x86)\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
+ (/usr/local/texlive/2014/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count109
 \scratchdimen=\dimen116
@@ -274,21 +266,70 @@ LaTeX Font Info:    ... okay on input line 10.
 \MPnumerator=\count113
 \makeMPintoPDFobject=\count114
 \everyMPtoPDFconversion=\toks24
+) (/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
 )
+
+(/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+(/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is detected.
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+(/usr/local/texlive/2014/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
+
+(/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
+))
+(/usr/local/texlive/2014/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
+
+(/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
+
+(/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)))
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 452.
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+\openout3 = `"Recreating Young's Double Slit ExperimentNotes.bib"'.
+
 LaTeX Font Info:    Try loading font information for U+msa on input line 32.
- ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 LaTeX Font Info:    Try loading font information for U+msb on input line 32.
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
+(/usr/local/texlive/2014/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) [1{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}]
-Missing character: There is no â in font cmr12!
+) [1{/usr/local/texlive/2014/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 Missing character: There is no € in font cmr12!
 Missing character: There is no “ in font cmr12!
 
-<DoubleSlitPicsStudyPhysicsCa.png, id=12, 350.05782pt x 353.06906pt>
+<DoubleSlitPicsStudyPhysicsCa.png, id=13, 350.05782pt x 353.06906pt>
 File: DoubleSlitPicsStudyPhysicsCa.png Graphic file (type png)
 
 <use DoubleSlitPicsStudyPhysicsCa.png>
@@ -311,8 +352,8 @@ Missing character: There is no “ in font cmr12!
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no “ in font cmr12!
-[2] [3 <C:/Users/Jon/Desktop/DoubleSlit-ED/DoubleSlitPicsStudyPhysicsCa.png>]
-<apparatus.pdf, id=21, 794.97pt x 614.295pt>
+[2] [3 <./DoubleSlitPicsStudyPhysicsCa.png>]
+<apparatus.pdf, id=22, 794.97pt x 614.295pt>
 File: apparatus.pdf Graphic file (type pdf)
  <use apparatus.pdf>
 Package pdftex.def Info: apparatus.pdf used on input line 73.
@@ -324,7 +365,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 LaTeX Warning: Reference `signaltonoise' on page 4 undefined on input line 81.
 
-<signaltonoise.pdf, id=22, 861.2175pt x 348.30125pt>
+<signaltonoise.pdf, id=23, 861.2175pt x 348.30125pt>
 File: signaltonoise.pdf Graphic file (type pdf)
  <use signaltonoise.pdf>
 Package pdftex.def Info: signaltonoise.pdf used on input line 85.
@@ -333,17 +374,17 @@ Package pdftex.def Info: signaltonoise.pdf used on input line 85.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[4] [5 <C:/Users/Jon/Desktop/DoubleSlit-ED/apparatus.pdf>]
-<doubleslit.pdf, id=76, 361.35pt x 203.76125pt>
+[4] [5 <./apparatus.pdf>] <doubleslit.pdf, id=77, 361.35pt x 203.76125pt>
 File: doubleslit.pdf Graphic file (type pdf)
- <use doubleslit.pdf>
+
+<use doubleslit.pdf>
 Package pdftex.def Info: doubleslit.pdf used on input line 98.
 (pdftex.def)             Requested size: 433.62pt x 244.51537pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<singlenear.pdf, id=77, 361.35pt x 206.7725pt>
+<singlenear.pdf, id=78, 361.35pt x 206.7725pt>
 File: singlenear.pdf Graphic file (type pdf)
  <use singlenear.pdf>
 Package pdftex.def Info: singlenear.pdf used on input line 107.
@@ -352,7 +393,7 @@ Package pdftex.def Info: singlenear.pdf used on input line 107.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<singlefar.pdf, id=78, 361.35pt x 203.76125pt>
+<singlefar.pdf, id=79, 361.35pt x 203.76125pt>
 File: singlefar.pdf Graphic file (type pdf)
  <use singlefar.pdf>
 Package pdftex.def Info: singlefar.pdf used on input line 114.
@@ -361,25 +402,24 @@ Package pdftex.def Info: singlefar.pdf used on input line 114.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[6 <C:/Users/Jon/Desktop/DoubleSlit-ED/signaltonoise.pdf>] [7 <C:/Users/Jon/Des
-ktop/DoubleSlit-ED/doubleslit.pdf> <C:/Users/Jon/Desktop/DoubleSlit-ED/singlene
-ar.pdf>] [8 <C:/Users/Jon/Desktop/DoubleSlit-ED/singlefar.pdf>]
-<doublefraun1.pdf, id=106, 361.35pt x 201.75375pt>
+[6 <./signaltonoise.pdf>] [7 <./doubleslit.pdf> <./singlenear.pdf>] [8 <./singl
+efar.pdf>] <doublefraun1.pdf, id=107, 361.35pt x 201.75375pt>
 File: doublefraun1.pdf Graphic file (type pdf)
- <use doublefraun1.pdf>
+
+<use doublefraun1.pdf>
 Package pdftex.def Info: doublefraun1.pdf used on input line 130.
 (pdftex.def)             Requested size: 433.62pt x 242.10635pt.
-
-<doublefraun2.pdf, id=107, 361.35pt x 208.78pt>
+ <doublefraun2.pdf, id=108, 361.35pt x 208.78pt>
 File: doublefraun2.pdf Graphic file (type pdf)
- <use doublefraun2.pdf>
+
+<use doublefraun2.pdf>
 Package pdftex.def Info: doublefraun2.pdf used on input line 137.
 (pdftex.def)             Requested size: 433.62pt x 250.5379pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<doublefraun3.pdf, id=108, 361.35pt x 208.78pt>
+<doublefraun3.pdf, id=109, 361.35pt x 208.78pt>
 File: doublefraun3.pdf Graphic file (type pdf)
  <use doublefraun3.pdf>
 Package pdftex.def Info: doublefraun3.pdf used on input line 144.
@@ -388,19 +428,23 @@ Package pdftex.def Info: doublefraun3.pdf used on input line 144.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[9 <C:/Users/Jon/Desktop/DoubleSlit-ED/doublefraun1.pdf>] [10 <C:/Users/Jon/Des
-ktop/DoubleSlit-ED/doublefraun2.pdf> <C:/Users/Jon/Desktop/DoubleSlit-ED/double
-fraun3.pdf>] <fresnelsetup.pdf, id=148, 794.97pt x 614.295pt>
-File: fresnelsetup.pdf Graphic file (type pdf)
+[9 <./doublefraun1.pdf>] [10 <./doublefraun2.pdf> <./doublefraun3.pdf>]
 
-<use fresnelsetup.pdf>
+LaTeX Warning: Reference `fresnel1' on page 11 undefined on input line 185.
+
+
+LaTeX Warning: Reference `fresnel3' on page 11 undefined on input line 185.
+
+<fresnelsetup.pdf, id=149, 794.97pt x 614.295pt>
+File: fresnelsetup.pdf Graphic file (type pdf)
+ <use fresnelsetup.pdf>
 Package pdftex.def Info: fresnelsetup.pdf used on input line 189.
 (pdftex.def)             Requested size: 433.62pt x 335.07939pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<doublefresnel1.pdf, id=149, 361.35pt x 201.75375pt>
+<doublefresnel1.pdf, id=150, 361.35pt x 201.75375pt>
 File: doublefresnel1.pdf Graphic file (type pdf)
  <use doublefresnel1.pdf>
 Package pdftex.def Info: doublefresnel1.pdf used on input line 196.
@@ -409,7 +453,7 @@ Package pdftex.def Info: doublefresnel1.pdf used on input line 196.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<doublefresnel2.pdf, id=150, 361.35pt x 201.75375pt>
+<doublefresnel2.pdf, id=151, 361.35pt x 201.75375pt>
 File: doublefresnel2.pdf Graphic file (type pdf)
  <use doublefresnel2.pdf>
 Package pdftex.def Info: doublefresnel2.pdf used on input line 203.
@@ -418,7 +462,7 @@ Package pdftex.def Info: doublefresnel2.pdf used on input line 203.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<doublefresnel3.pdf, id=151, 361.35pt x 201.75375pt>
+<doublefresnel3.pdf, id=152, 361.35pt x 201.75375pt>
 File: doublefresnel3.pdf Graphic file (type pdf)
  <use doublefresnel3.pdf>
 Package pdftex.def Info: doublefresnel3.pdf used on input line 210.
@@ -427,8 +471,8 @@ Package pdftex.def Info: doublefresnel3.pdf used on input line 210.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[11] [12 <C:/Users/Jon/Desktop/DoubleSlit-ED/fresnelsetup.pdf>]
-<nearfraun.pdf, id=197, 361.35pt x 203.76125pt>
+[11] [12 <./fresnelsetup.pdf>] [13 <./doublefresnel1.pdf> <./doublefresnel2.pdf
+>] <nearfraun.pdf, id=223, 361.35pt x 203.76125pt>
 File: nearfraun.pdf Graphic file (type pdf)
  <use nearfraun.pdf>
 Package pdftex.def Info: nearfraun.pdf used on input line 250.
@@ -437,7 +481,7 @@ Package pdftex.def Info: nearfraun.pdf used on input line 250.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<farfraun.pdf, id=198, 361.35pt x 201.75375pt>
+<farfraun.pdf, id=224, 361.35pt x 201.75375pt>
 File: farfraun.pdf Graphic file (type pdf)
  <use farfraun.pdf>
 Package pdftex.def Info: farfraun.pdf used on input line 257.
@@ -446,11 +490,8 @@ Package pdftex.def Info: farfraun.pdf used on input line 257.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[13 <C:/Users/Jon/Desktop/DoubleSlit-ED/doublefresnel1.pdf> <C:/Users/Jon/Deskt
-op/DoubleSlit-ED/doublefresnel2.pdf>] [14 <C:/Users/Jon/Desktop/DoubleSlit-ED/d
-oublefresnel3.pdf> <C:/Users/Jon/Desktop/DoubleSlit-ED/nearfraun.pdf>] [15 <C:/
-Users/Jon/Desktop/DoubleSlit-ED/farfraun.pdf>]
-<DoubleSlitFraun1.pdf, id=259, 614.295pt x 794.97pt>
+[14 <./doublefresnel3.pdf>] [15 <./nearfraun.pdf> <./farfraun.pdf>]
+<DoubleSlitFraun1.pdf, id=261, 614.295pt x 794.97pt>
 File: DoubleSlitFraun1.pdf Graphic file (type pdf)
 
 <use DoubleSlitFraun1.pdf>
@@ -460,7 +501,7 @@ Package pdftex.def Info: DoubleSlitFraun1.pdf used on input line 283.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<DoubleSlitFraun2.pdf, id=260, 614.295pt x 794.97pt>
+<DoubleSlitFraun2.pdf, id=262, 614.295pt x 794.97pt>
 File: DoubleSlitFraun2.pdf Graphic file (type pdf)
 
 <use DoubleSlitFraun2.pdf>
@@ -470,7 +511,7 @@ Package pdftex.def Info: DoubleSlitFraun2.pdf used on input line 290.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<DoubleSlitFraun3.pdf, id=261, 614.295pt x 794.97pt>
+<DoubleSlitFraun3.pdf, id=263, 614.295pt x 794.97pt>
 File: DoubleSlitFraun3.pdf Graphic file (type pdf)
 
 <use DoubleSlitFraun3.pdf>
@@ -480,7 +521,7 @@ Package pdftex.def Info: DoubleSlitFraun3.pdf used on input line 298.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<DoubleSlitFresnel1.pdf, id=262, 614.295pt x 794.97pt>
+<DoubleSlitFresnel1.pdf, id=264, 614.295pt x 794.97pt>
 File: DoubleSlitFresnel1.pdf Graphic file (type pdf)
 
 <use DoubleSlitFresnel1.pdf>
@@ -490,7 +531,7 @@ Package pdftex.def Info: DoubleSlitFresnel1.pdf used on input line 305.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<DoubleSlitFresnel2.pdf, id=263, 614.295pt x 794.97pt>
+<DoubleSlitFresnel2.pdf, id=265, 614.295pt x 794.97pt>
 File: DoubleSlitFresnel2.pdf Graphic file (type pdf)
 
 <use DoubleSlitFresnel2.pdf>
@@ -500,7 +541,7 @@ Package pdftex.def Info: DoubleSlitFresnel2.pdf used on input line 312.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<DoubleSlitFresnel3.pdf, id=264, 614.295pt x 794.97pt>
+<DoubleSlitFresnel3.pdf, id=266, 614.295pt x 794.97pt>
 File: DoubleSlitFresnel3.pdf Graphic file (type pdf)
 
 <use DoubleSlitFresnel3.pdf>
@@ -510,7 +551,7 @@ Package pdftex.def Info: DoubleSlitFresnel3.pdf used on input line 319.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<SingleNearFraun.pdf, id=265, 614.295pt x 794.97pt>
+<SingleNearFraun.pdf, id=267, 614.295pt x 794.97pt>
 File: SingleNearFraun.pdf Graphic file (type pdf)
  <use SingleNearFraun.pdf>
 Package pdftex.def Info: SingleNearFraun.pdf used on input line 326.
@@ -519,7 +560,7 @@ Package pdftex.def Info: SingleNearFraun.pdf used on input line 326.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<SingleFarFraun.pdf, id=266, 614.295pt x 794.97pt>
+<SingleFarFraun.pdf, id=268, 614.295pt x 794.97pt>
 File: SingleFarFraun.pdf Graphic file (type pdf)
  <use SingleFarFraun.pdf>
 Package pdftex.def Info: SingleFarFraun.pdf used on input line 333.
@@ -528,17 +569,11 @@ Package pdftex.def Info: SingleFarFraun.pdf used on input line 333.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[16] [17 <C:/Users/Jon/Desktop/DoubleSlit-ED/DoubleSlitFraun1.pdf>] [18 <C:/Use
-rs/Jon/Desktop/DoubleSlit-ED/DoubleSlitFraun2.pdf>] [19 <C:/Users/Jon/Desktop/D
-oubleSlit-ED/DoubleSlitFraun3.pdf>] [20 <C:/Users/Jon/Desktop/DoubleSlit-ED/Dou
-bleSlitFresnel1.pdf>] [21 <C:/Users/Jon/Desktop/DoubleSlit-ED/DoubleSlitFresnel
-2.pdf>] [22 <C:/Users/Jon/Desktop/DoubleSlit-ED/DoubleSlitFresnel3.pdf>]
-[23 <C:/Users/Jon/Desktop/DoubleSlit-ED/SingleNearFraun.pdf>] [24 <C:/Users/Jon
-/Desktop/DoubleSlit-ED/SingleFarFraun.pdf>]
-("C:\Users\Jon\Desktop\DoubleSlit-ED\Recreating Young's Double Slit Experiment.
-bbl") [25]
-("C:\Users\Jon\Desktop\DoubleSlit-ED\Recreating Young's Double Slit Experiment.
-aux")
+[16] [17 <./DoubleSlitFraun1.pdf>] [18 <./DoubleSlitFraun2.pdf>] [19 <./DoubleS
+litFraun3.pdf>] [20 <./DoubleSlitFresnel1.pdf>] [21 <./DoubleSlitFresnel2.pdf>]
+[22 <./DoubleSlitFresnel3.pdf>] [23 <./SingleNearFraun.pdf>] [24 <./SingleFarFr
+aun.pdf>] (./Recreating Young's Double Slit Experiment.bbl) [25]
+(./Recreating Young's Double Slit Experiment.aux)
 
 LaTeX Warning: There were undefined references.
 
@@ -547,34 +582,35 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 4091 strings out of 493921
- 54125 string characters out of 3144881
- 124664 words of memory out of 3000000
- 7332 multiletter control sequences out of 15000+200000
- 12665 words of font info for 49 fonts, out of 3000000 for 9000
- 841 hyphenation exceptions out of 8191
- 37i,8n,30p,1477b,391s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb>
-<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C
-:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/
-Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Pr
-ogram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Prog
-ram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Program
- Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Fi
-les (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files
- (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files (x
-86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Program Files (x86)/
-MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files (x86)/MiKT
-eX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files (x86)/MiKTeX
- 2.9/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Program Files (x86)/MiKTeX 2.
-9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files (x86)/MiKTeX 2.9/f
-onts/type1/public/amsfonts/cm/cmti10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fon
-ts/type1/public/amsfonts/cm/cmti12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts
-/type1/public/amsfonts/cm/cmtt10.pfb>
+ 4450 strings out of 493117
+ 60550 string characters out of 6135433
+ 138612 words of memory out of 5000000
+ 7829 multiletter control sequences out of 15000+600000
+ 12665 words of font info for 49 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 38i,8n,30p,1443b,391s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
+></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
+</usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><
+/usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></
+usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></u
+sr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr
+/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/l
+ocal/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/loc
+al/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local
+/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/te
+xlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texli
+ve/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texliv
+e/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/
+2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/20
+14/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/201
+4/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2014
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
 Output written on "Recreating Young's Double Slit Experiment.pdf" (25 pages, 26
-81220 bytes).
+02155 bytes).
 PDF statistics:
- 604 PDF objects out of 1000 (max. 8388607)
+ 610 PDF objects out of 1000 (max. 8388607)
+ 477 compressed objects within 5 object streams
  0 named destinations out of 1000 (max. 500000)
  116 words of extra memory for PDF output out of 10000 (max. 10000000)
 
