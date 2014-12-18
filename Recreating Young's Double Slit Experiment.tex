@@ -13,7 +13,7 @@
 \title{Recreating Young's Double Slit Experiment}
 
 
-\author{Ed Lipchus}
+\author{Edward Lipchus}
 \email{ejl13@hampshire.edu}
 \affiliation{Department of Natural Science, Hampshire College, Amherst, MA 01002}
 
@@ -29,6 +29,7 @@
 
 \begin{abstract}
 
+In 1803, Young performed his famous Double Slit Experiment to determine whether light acted as a particle or as a wave. Recreating his ground-breaking work, we observed the double slit interference pattern associated with light as a wave, and fit each of our three data sets using both the Fraunhofer and the Fresnel models - the former calculating the path of light strictly based on angle and the latter integrating over the entire path length of each light beam. Our models fit decently with $\chi^2$ values of 73, 70, and 122 for the Fraunhofer and of 53, 54, and 122 for the Fresnel, and showed that the Fresnel model provided a better fit for our experimental set-up.
 
 \end{abstract}
 
@@ -37,7 +38,30 @@
 
 \section{Introduction} 
 
-The double slit experiment preformed by Thomas Young was seminal because it demonstrated the wave nature of light. 
+Early scientists debated the nature of light – whether it was a particle or a wave. In 1803, Thomas Young performed an experiment to see if light acted as a wave or as a particle by passing a coherent light source through two closely spaced slits. If light was a particle, you would see to thin lines of illumination in line with the slits, as the particles simply passed through the slits. If, however, light was a wave, then the two slits would act as the origins of two wave sources that could interfere with each other, constructively and destructively, and a corresponding pattern would emerge opposite the slits. These are depicted in Fig. \ref{PartVsWave}.
+
+\begin{figure}[h!]
+\centering
+\includegraphics[width=6in]{DoubleSlitPicsStudyPhysicsCa.png}
+\caption{Image of light passing through a double slit if it were a particle (above) and if it were a wave (below).\cite{studyphysics}}
+\label{PartVsWave}
+\end{figure}
+
+The interference pattern is brightest in the center, getting fainter each step away from the center, as the two light waves interfere constructively to form peaks and destructively to leave empty valleys. The spacing between peaks is determined by the equation:
+\begin{equation}
+\label{DblIntfr}
+x = \frac{n\lambda L}{d}\cite{studyphysics}
+\end{equation}
+Where x is the distance from the center, n is the peak number from the center – with $n=1$ being the peak on either side of the center line – $\lambda$ is the wavelength of the light, L is the distance from the double slit to the screen upon which the light is shining, and d is the spacing between the slits.
+
+Young passed sunlight through a single slit – making it a single line of coherent light – before letting it pass through a double slit and then onto a projection screen, upon which he saw an interference pattern. Light was, undoubtedly, a wave.
+
+There are two general ways to look at modeling this diffraction, based on a dimensionless number called the Fresnel Number.\cite{Wolfram} This number is defined as:
+\begin{equation}
+\label{DblIntfr}
+F = \frac{a^2}{\lambda R}\cite{Wolfram}
+\end{equation}
+Where a is the size of the slit, $\lambda$ is the wavelength of the incident light, and R is the distance from the slit to the detection screen. If this number is very much less than one (by having the detection screen be far away from the slit, for instance), then it is reasonable to take the Fraunhofer limit for diffraction, which effectively ignores the distance to the screen and relies only on the angle between the slit and the screen.\cite{Wolfram} On the other hand, when the Fresnel number is greater than or equal to one, the Fresnel Diffraction model must be used, which takes into account path lengths traveled by the light.\cite{Wolfram} 
 
 \section{Methods}
 
@@ -219,7 +243,7 @@ I(x) = I_0 \left(\frac{\sin\alpha}{\alpha}\right)^2
 \alpha = \frac{a \pi \sin(\frac{x - x_0}{R})}{\lambda}
 \end{equation}
 
-Fitting Equation~\ref{singlefraunhofer} to our single slit data we got Figure~\ref{nearfraun} and Figure~\ref{farfraun}. As discussed above the amplitude for our far slit data, Figure~\ref{farfaun}, is larger than expected most likely due to slit misalignment. Our near slit data, Figure~\ref{nearfraun}, agreed with our expectations for amplitude being one fourth the amplitude of the double slit fit.
+Fitting Equation~\ref{singlefraunhofer} to our single slit data we got Figure~\ref{nearfraun} and Figure~\ref{farfraun}. As discussed above the amplitude for our far slit data, Figure~\ref{farfraun}, is larger than expected most likely due to slit misalignment. Our near slit data, Figure~\ref{nearfraun}, agreed with our expectations for amplitude being one fourth the amplitude of the double slit fit.
 
 \begin{figure}[h!]
 \centering
@@ -244,11 +268,13 @@ The largest limiting factor in our experiment was the alignment of our slits. Al
 
 To better align the slits we would have needed to take data then realign the slits and take data again until the our data showed us the slits were aligned. Alignment could be seen when all the minima of the diffraction pattern reached zero. This method of fine alignment would have required more time than we had. Fine alignment would also have been difficult because we were adjusting the slits with our fingers so such small, precise movements would have been difficult.
 
-For future experiments we would suggest taking the time to make the fine adjustment necessary to ensure better alignment. And if possible use a apparatus that allows fine adjustments with something other than ones fingers.
+For future experiments we would suggest taking the time to make the fine adjustment necessary to ensure better alignment. And if possible use an apparatus that allows fine adjustments with something other than ones fingers.
 
 Another potential difficulty was that our third data set had much higher $\chi^2$ and reduced $\chi^2$ values than than our first and second data sets. Further the $\chi^2$ and reduced $\chi^2$ values for third data set was same for both the Fraunhofer and Fresnel fits. Where as for our first and second data sets the $\chi^2$ and reduced $\chi^2$ values for the Fresnel fit was smaller than the $\chi^2$ and reduced $\chi^2$ values for the Fraunhofer fit. It appears that we had more noise around the edges of the diffraction pattern for our third data set than for the other two data sets. It is possible that this greater noise is reducing the accuracy of both our fits.
 
 \section{Conclusion}
+
+When shining coherent light through a pane with two closely spaced slits and onto a photo-detector, we saw a clear interference pattern, just like Young did, indicative of light acting as a wave. When analyzing this pattern, both the Fraunhofer and Fresnel model fits were relatively good (minus one particularly bad data set): 73, 70, and 122 for the Fraunhofer; 53, 54, and 122 for the Fresnel. The Fresnel model also fit better, indicating that the length of the chamber is small enough that it should be taken into account. Note as well that our parameters had a larger fluctuation when fitting the different data sets with the Fraunhofer model than with the Fresnel model. However, if this experiment is performed with a much longer chamber, the Fraunhofer model should begin to have a stronger $\chi^2$ correlation than the Fresnel.
 
 \section{Appendix}
 
@@ -258,7 +284,6 @@ Another potential difficulty was that our third data set had much higher $\chi^2
 \caption{Mathematica code for the Fraunhofer model fit to our first double slit data set.}
 \label{DoubleSlitFraun1}
 \end{figure}
-
 
 \begin{figure}[h!]
 \centering
@@ -310,8 +335,12 @@ Another potential difficulty was that our third data set had much higher $\chi^2
 \label{SingleFarFraun}
 \end{figure}
 
+\newpage
+\begin{thebibliography}{3}
 
-\begin{thebibliography}{1}
+\bibitem{studyphysics} Clintberg, Bryan. "Mr. Clintberg's Studyphysics!," 12/17/2014 \url{http://www.studyphysics.ca/newnotes/20/unit04_light/chp1719_light/lesson58.htm}
+
+\bibitem{Wolfram} Weisstein, Eric. "Eric Weisstein's World of Physics," 12/17/2014. \url{http://scienceworld.wolfram.com/physics}
 
 \bibitem{teachspin} Jonathan F. Reichert, \textit{TeachSpin Instruction Manuals: Two-Slit Interference, One Photon at a Time (TWS1 - B), Pulse Counter / Interval Timer (PCIT1)} Rev. 1.0, (2013)
 
